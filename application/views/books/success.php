@@ -3,7 +3,7 @@
 
 	echo"Succesfully added your book!";
 
-	header("Refresh:5;url=");
+	header("Refresh:5;url=" . base_url() . 'index.php/books');
 	?>
 	<br>
 	<?php
